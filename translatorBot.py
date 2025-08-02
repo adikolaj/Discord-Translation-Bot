@@ -1,7 +1,6 @@
 # ================================================================================================= #
 # File: translatorBot.py
-# Author/s: Eduard Kolaj, adikolaj87@gmail.com
-#           (name, email)                 
+# Author/s: Eduard Kolaj, adikolaj87@gmail.com              
 # Last Modified: 01:11 14th May 2025
 # Description: Attempt at discord translation bot side project.
 #              Uses GoogleTranslator from deep_translator, if that doesn't work will 
@@ -37,8 +36,6 @@ if TOKEN is None:
 intents = discord.Intents.default()
 intents.message_content = True # VERY IMPORTANT: MUST BE ENABLED IN DEV PORTAL
 client = discord.Client(intents=intents)
-
-
 
 
 # ================================================================================================= #
